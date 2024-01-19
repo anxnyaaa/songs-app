@@ -1,3 +1,92 @@
+*{
+  /*background-color: #000000;*/
+  background-color: #000000;
+  position: relative;
+  width: 100vw;
+}
+
+.container {
+  width: auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+}
+
+.top {
+  width:100vw;
+  height: 90vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.left {
+  height: 90vh;
+  width: 25vw;
+  position: relative;
+}
+
+
+/* Left Side Sidebar done */
+.left .sidebar {
+  background-color: #121212;
+  border-radius: 10px;
+  display: flex; 
+  flex-wrap: wrap;
+  width: auto;
+  height: 15vh; 
+}
+
+.left .sidebar .App-logo {
+  width: 100px;
+  height: 28px;
+  background-color: #121212;
+  border-radius: 10px;
+}
+
+.left .sidebar h5 {
+  color: white;
+  list-style-type: none;
+  background-color: #121212;
+}
+/* Left Side Sidebar ends */
+
+/* Left Side Library done */
+.left .library {
+  margin-top: 10px;
+  background-color: #121212;
+  border-radius: 10px;  
+  position: relative;
+  width: auto;
+  height: 90vh; 
+  color: white;  
+}
+
+.left .library h5 {
+  color: white;
+  list-style-type: none;
+  background-color: #121212;
+}
+
+.left .library .first-playlist {
+  margin: 5px;
+  width: auto;
+  height: 20px;
+  background-color: #242424;
+  border-radius: 8px;
+}
+.left .library .podcast {
+  margin: 5px;
+  width: auto;
+  height: 20px;
+  background-color: #242424;
+  border-radius: 8px;
+}
+/* Left Side Library ends */
+
+
+/*
 .App {
   text-align: center;
 }
@@ -36,3 +125,4 @@
     transform: rotate(360deg);
   }
 }
+*/
