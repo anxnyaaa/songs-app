@@ -3,6 +3,7 @@
   background-color: #000000;
   position: relative;
   width: 100vw;
+  color: white;
 }
 
 .container {
@@ -12,7 +13,7 @@
   justify-content: center;
   border: 2px solid black;
 }
-
+/*
 .top {
   width:100vw;
   height: 90vh;
@@ -29,6 +30,7 @@
 
 
 /* Left Side Sidebar done */
+/*
 .left .sidebar {
   background-color: #121212;
   border-radius: 10px;
@@ -52,7 +54,9 @@
 }
 /* Left Side Sidebar ends */
 
+
 /* Left Side Library done */
+/*
 .left .library {
   margin-top: 10px;
   background-color: #121212;
@@ -82,7 +86,7 @@
   height: 20px;
   background-color: #242424;
   border-radius: 8px;
-}
+}*/
 /* Left Side Library ends */
 
 
