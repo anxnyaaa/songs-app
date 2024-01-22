@@ -12,13 +12,13 @@ function App() {
 
           <div className='sidebar'>
             <img src={logo} className="App-logo" alt="logo" />
-            <h4>Home</h4>
-            <h4>Search</h4>    
+            <h4><span class="material-symbols-rounded">home</span>Home</h4>
+            <h4><span class="material-symbols-rounded">search</span>Search</h4>    
           </div>
           
           <div className='library'>
             <div className='heading'>
-              <h4>Your Library</h4>
+              <h4><span class="material-symbols-rounded">library_add_check</span>Your Library</h4>
               <span class="material-symbols-rounded">add</span>
             </div>            
 
@@ -38,7 +38,7 @@ function App() {
               <p className='ft'>Legal &nbsp; Privacy Center &nbsp; Privacy Policy &nbsp; Cookies &nbsp; About Ads 
                 <br/>Accessibility
               </p>
-              <a className='cookies'>Cookies</a>
+              <a href="#" className='cookies'>Cookies</a>
               <div className='lang'>
                 <span class="material-symbols-rounded">language</span>
                 <h5>English</h5>
@@ -115,32 +115,34 @@ function App() {
           </div>
 
           <div className='footer'>
-            <div className='text'>
-              <ul className='company'>
-                <dt>Company</dt>
-                <li>About</li>
-                <li>Jobs</li>
-                <li>For the Record</li>
-              </ul>
-              <ul className='communities'>
-                <dt>Communities</dt>
-                <li>For Artists</li>
-                <li>Developers</li>
-                <li>Advertising</li>
-                <li>Investors</li>
-                <li>Vendors</li>
-              </ul>
-              <ul className='useful-links'>
-                <dt>Useful Links</dt>
-                <li>Support</li>
-                <li>Free Mobile App</li>
-              </ul>
-            </div>
+            <div className='top-footer'>
+              <div className='text'>
+                <ul>
+                  <li>Company</li>
+                  <li>About</li>
+                  <li>Jobs</li>
+                  <li>For the Record</li>
+                </ul>
+                <ul>
+                  <li>Communities</li>
+                  <li>For Artists</li>
+                  <li>Developers</li>
+                  <li>Advertising</li>
+                  <li>Investors</li>
+                  <li>Vendors</li>
+                </ul>
+                <ul>
+                  <li>Useful Links</li>
+                  <li>Support</li>
+                  <li>Free Mobile App</li>
+                </ul>
+              </div>
 
-            <div className='socials'>
-              <i class="fa-brands fa-instagram"></i>
-              <i class="fa-brands fa-twitter"></i>
-              <i class="fa-brands fa-facebook"></i>              
+              <div className='socials'>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>              
+              </div>
             </div>
 
             <span></span>
